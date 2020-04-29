@@ -23,5 +23,25 @@ namespace Dtos
         /// 日志Service
         /// </summary>
         public string LogsService { get; set; }
+
+        /// <summary>
+        /// Ftp地址
+        /// </summary>
+        public string FtpAddress { get; set; }
+
+        /// <summary>
+        /// Ftp用户名
+        /// </summary>
+        public string FtpUser { get; set; }
+
+        /// <summary>
+        /// Ftp密码
+        /// </summary>
+        public string FtpPwd { get; set; }
+
+        /// <summary>
+        /// Ftp端口
+        /// </summary>
+        public int FtpPort { get; set; }
     }
 }
